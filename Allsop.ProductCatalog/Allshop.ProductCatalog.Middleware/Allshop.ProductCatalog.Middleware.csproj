@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="10.0.1" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="10.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.4" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="6.0.1" />
+    <PackageReference Include="Microsoft.NETCore.App" Version="2.2.8" />
+    <PackageReference Include="Scrutor" Version="4.1.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Allsop.Common\Allsop.Common.csproj" />
+    <ProjectReference Include="..\Allsop.DataAccess.Repository\Allsop.DataAccess.Repository.csproj" />
+    <ProjectReference Include="..\Allsop.DataAccess\Allsop.DataAccess.csproj" />
+    <ProjectReference Include="..\Allsop.Domain\Allsop.Domain.csproj" />
+    <ProjectReference Include="..\Allsop.Service.Contract\Allsop.Service.Contract.csproj" />
+  </ItemGroup>
+
+</Project>

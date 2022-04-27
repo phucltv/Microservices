@@ -11,7 +11,7 @@ namespace Allsop.DataAccess
                 new CategoryDb()
                 {
                     Id = new Guid("28458754-096F-4238-B4BC-98C31D7FCD5A"),
-                    Name = "Drinks"
+                    Name = "Drinks1"
                 },
                 new CategoryDb()
                 {
